@@ -1,3 +1,4 @@
+
 if !exists('g:lspconfig')
   finish
 endif
@@ -15,3 +16,4 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   }
 )
 EOF
+

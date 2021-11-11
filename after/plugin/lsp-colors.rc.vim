@@ -1,5 +1,4 @@
 if !exists('#LspColors') | finish | endif
-
 lua << EOF
 require("lsp-colors").setup({
   Error = "#db4b4b",
@@ -8,3 +7,4 @@ require("lsp-colors").setup({
   Hint = "#10B981"
 })
 EOF
+

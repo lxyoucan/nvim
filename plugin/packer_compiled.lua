@@ -73,45 +73,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/LuaSnip"
   },
-  ZFVimIM = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/ZFVimIM"
-  },
-  bufexplorer = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/bufexplorer"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-buffer"
-  },
-  ["cmp-calc"] = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-calc"
-  },
-  ["cmp-emoji"] = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-emoji"
-  },
-  ["cmp-look"] = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-look"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
   },
-  ["cmp-nvim-lua"] = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua"
-  },
   ["cmp-path"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-path"
-  },
-  ["cmp-spell"] = {
-    loaded = true,
-    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/cmp-spell"
   },
   cmp_luasnip = {
     loaded = true,
@@ -125,6 +97,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/defx.nvim"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/formatter.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/friendly-snippets"
@@ -132,6 +108,10 @@ _G.packer_plugins = {
   ["gruvbox-material"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/gruvbox-material"
+  },
+  kommentary = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/kommentary"
   },
   ["lsp-colors.nvim"] = {
     loaded = true,
@@ -145,6 +125,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
@@ -156,6 +140,18 @@ _G.packer_plugins = {
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -169,9 +165,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
+  rainbow = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/rainbow"
+  },
   rnvimr = {
     loaded = true,
     path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/rnvimr"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/Users/itkey/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

@@ -7,3 +7,4 @@ let g:rnvimr_ranger_cmd = 'ranger --cmd="set viewmode multipane"'
 " 设置<F3> 启动文件管理器
 nnoremap <F3> :RnvimrToggle<CR>
 nnoremap sr :RnvimrToggle<CR>
+

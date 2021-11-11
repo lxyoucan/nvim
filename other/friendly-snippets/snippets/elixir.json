@@ -1,0 +1,37 @@
+{
+  "defmodule": {
+    "prefix": "defmodule",
+    "body": [
+      "defmodule ${1:Name} do",
+      "  $0",
+      "end"
+    ],
+    "description": "Define a module"
+  },
+  "def": {
+    "prefix": "def",
+    "body": [
+      "def ${1:name}() do",
+      "  $0",
+      "end"
+    ],
+    "description": "Define a function"
+  },
+  "defp": {
+    "prefix": "defp",
+    "body": [
+      "defp ${1:name}() do",
+      "  $0",
+      "end"
+    ],
+    "description": "Define a private function"
+  },
+  "IO.inspect": {
+    "prefix": "ins",
+    "body": "IO.inspect(${0})",
+  },
+  "IO.inspect with label": {
+    "prefix": "insl",
+    "body": "IO.inspect(${0}, label: \"${1}\")",
+  },
+}

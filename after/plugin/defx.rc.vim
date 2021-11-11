@@ -55,6 +55,8 @@ autocmd FileType defx call s:defx_my_settings()
 	  \ defx#do_action('yank_path')
 	  nnoremap <silent><buffer><expr> .
 	  \ defx#do_action('toggle_ignored_files')
+	  nnoremap <silent><buffer><expr> <BS>
+	  \ defx#do_action('toggle_ignored_files')
 	  nnoremap <silent><buffer><expr> ;
 	  \ defx#do_action('repeat')
 	  nnoremap <silent><buffer><expr> h
@@ -63,6 +65,10 @@ autocmd FileType defx call s:defx_my_settings()
 	  \ defx#do_action('cd', ['..'])
 	  nnoremap <silent><buffer><expr> ~
 	  \ defx#do_action('cd')
+	  nnoremap <silent><buffer><expr> gh
+	  \ defx#do_action('cd')
+	  nnoremap <silent><buffer><expr> gn
+	  \ defx#do_action('cd',['~/.config/nvim'])
 	  nnoremap <silent><buffer><expr> q
 	  \ defx#do_action('quit')
 	  nnoremap <silent><buffer><expr> <Space>
@@ -100,5 +106,4 @@ call defx#custom#column('git', 'indicators', {
   \ 'Deleted'   : '✖',
   \ 'Unknown'   : '?'
   \ })
-
 

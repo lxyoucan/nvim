@@ -35,6 +35,7 @@ nmap <C-down> <C-w>-
 nmap s<down> <C-w>-
 
 " 插入模式移动光标
+" sdfdasfasdfasfd123345ddd
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
@@ -61,11 +62,11 @@ noremap <C-k> 5k
 noremap <C-s> :w<CR>
 noremap s :w<CR>
 " Coc智能处理，使用IDEA Alt+Enter 同样按键
-noremap <M-Enter> :CocAction<CR>
+"noremap <M-Enter> :CocAction<CR>
 inoremap <C-s> <ESC> :w<CR>
 " 代码格式化
 noremap <leader>f :Format<CR> 
-noremap <leader>r :luafile ~/mac/WP2021/lua/study/hello.lua<CR>
+noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
 
 " 强制退出
 map Q :q<CR>
@@ -145,4 +146,11 @@ nmap <Tab> :bnext<Return>
 nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
+
+"markdown code自动复制
+nnoremap <silent><leader>yy <cmd>lua require('itkey.md').markdownCopyPlus()<CR>
+
+
+
+
 

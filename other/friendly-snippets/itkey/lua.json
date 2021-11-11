@@ -1,0 +1,7 @@
+{
+	"lxyoucan": {
+		"prefix": "itkey",
+		"body": ["function ${1:name}($2)", "\t${3:print('祝您身体健康，万事如意！')}", "end"]
+	}
+}
+

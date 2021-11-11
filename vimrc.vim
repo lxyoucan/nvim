@@ -25,6 +25,8 @@ set wrap
 set showcmd
 " 按tab显示菜单
 set wildmenu
+" 不需要备份文件
+set nobackup
 "----vim 个人使用习惯配置end------
 "ssh 远程粘贴板
 if executable('clipboard-provider')
@@ -57,4 +59,5 @@ endfunction
 " JSX 语法高亮
 " set filetypes as typescriptreact
 autocmd BufNewFile,BufRead *.tsx,*.jsx,*.js set filetype=typescriptreact
+
 
