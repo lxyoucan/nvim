@@ -17,14 +17,22 @@ return require("packer").startup(
     function()
       use "wbthomason/packer.nvim"
       -- Packer can manage itself
-      use {
+      --[[ use {
         "vim-airline/vim-airline",
         requires = {
           "vim-airline/vim-airline-themes",
           --综合图标支持such vim-airline lightline, vim-startify
           "ryanoasis/vim-devicons"
         }
+      } ]]
+      --状态栏插件
+      use {
+        "nvim-lualine/lualine.nvim",
+        requires = {"kyazdani42/nvim-web-devicons", opt = true}
       }
+      -- bufferline 显示标签页,与lualine配合使用
+      use "akinsho/bufferline.nvim"
+
       use "sainnhe/gruvbox-material"
       --内嵌浮动ranger插件
       use "kevinhwang91/rnvimr"
@@ -66,7 +74,8 @@ return require("packer").startup(
 
       --markdown预览插件
       use "iamcco/markdown-preview.nvim"
-      use "kabouzeid/nvim-lspinstall"
+      use "williamboman/nvim-lsp-installer"
+
       -- 自动为尚不支持 Neovim 0.5 内置 lsp 客户端的配色方案创建缺少的 LSP 诊断突出显示组。
       use "folke/lsp-colors.nvim"
       -- 基于neovim 内置lsp 的轻量级lsp 插件，具有高性能UI。非常酷
